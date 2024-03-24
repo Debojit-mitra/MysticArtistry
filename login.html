@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/index.css" />
-    <link rel="stylesheet" href="css/login.css" />
+    <link rel="stylesheet" href="css/login_signup.css" />
     <title>MysticArtistry - Login</title>
   </head>
 
@@ -14,7 +14,7 @@
       <div class="page-header">
         <div class="logo">
           <img src="img/logo.png" alt="Logo" class="logo-img" />
-          <a href="#">MysticArtistry</a>
+          <a href="index.html">MysticArtistry</a>
         </div>
         <label for="click" class="mainicon">
           <button type="button" class="nav-btn" onclick="openShopPage()">
@@ -53,18 +53,15 @@
             <div class="forgotPass">
               <a href="#" id="forgotPassword">Forgot password?</a>
             </div>
-            <button type="button" class="loginBtn" onclick="openShopPage()">
-              LOGIN
-            </button>
-            <button
-              type="button"
-              class="loginBtnUsingGoogle"
-              onclick="openShopPage()"
-            >
-              LOGIN
+            <button type="button" class="loginBtn">LOGIN</button>
+            <div id="extra_or">OR</div>
+            <button type="button" class="loginBtnUsingGoogle">
+              <img src="img/google.png" alt="" width="5%" />
+              <span>LOG IN WITH GOOGLE</span>
             </button>
             <div class="dontHaveAccount">
-              Don't have account? <a href="#" class="signUp">Sign up now</a>
+              Don't have account?
+              <a href="signup.html" class="signUp">Sign up now</a>
             </div>
           </form>
         </div>

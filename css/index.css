@@ -4,6 +4,7 @@
 :root {
   --primary-color: #ffca2a; /*f4ca51*/
   --primary-color-dark: rgb(232, 177, 13);
+  --primary-color-extra-dark: hsl(18, 58%, 27%);
   --primary-dark: #1f252e;
 }
 
@@ -31,7 +32,7 @@ body::before {
 
 /* Genral */
 .container {
-  padding: 0 8.4rem;
+  padding: 0 5.5rem;
 }
 
 button {
@@ -53,7 +54,11 @@ button:hover {
 
 /* Nav */
 header {
-  background-color: hsl(18, 58%, 27%); /* hsl(309.07deg 62.32% 27.06%); */
+  background-color: hsl(
+    18,
+    58%,
+    27%
+  ); /* hsl(309.07deg 62.32% 27.06%); hsl(18, 58%, 27%);*/
   position: sticky;
   top: 0;
   z-index: 1;
@@ -143,14 +148,6 @@ li a:hover {
 /* Nav End */
 
 /* Section 1 */
-
-.main {
-  padding-top: 4rem;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-}
 
 .main .detail {
   margin-top: 20%;

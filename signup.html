@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/login_signup.css" />
+    <title>MysticArtistry - Login</title>
+  </head>
+
+  <body>
+    <header class="container">
+      <div class="page-header">
+        <div class="logo">
+          <img src="img/logo.png" alt="Logo" class="logo-img" />
+          <a href="index.html">MysticArtistry</a>
+        </div>
+        <label for="click" class="mainicon">
+          <button type="button" class="nav-btn" onclick="openShopPage()">
+            SHOP NOW
+          </button>
+        </label>
+      </div>
+    </header>
+
+    <section class="container">
+      <div class="main">
+        <div class="loginHere">
+          <form>
+            <table>
+              <tr>
+                <th colspan="2">Get Started</th>
+              </tr>
+              <tr>
+                <td style="padding-top: 5%">Name:</td>
+                <td style="padding-top: 5%">
+                  <input type="email" placeholder="Enter your name" />
+                </td>
+              </tr>
+              <tr>
+                <td>Email:</td>
+                <td><input type="email" placeholder="Enter your email" /></td>
+              </tr>
+              <tr>
+                <td>Password:</td>
+                <td>
+                  <input type="password" placeholder="Enter your password" />
+                </td>
+              </tr>
+            </table>
+            <button type="button" class="loginBtn" onclick="openShopPage()">
+              SIGN UP
+            </button>
+            <div id="extra_or">OR</div>
+            <button
+              type="button"
+              class="loginBtnUsingGoogle"
+              onclick="openShopPage()"
+            >
+              <img src="img/google.png" alt="" width="5%" />
+              <span>SIGN UP WITH GOOGLE</span>
+            </button>
+            <div class="dontHaveAccount">
+              Already have account?
+              <a href="login.html" class="signUp">Sign in</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <script src="js/script.js"></script>
+  </body>
+</html>
