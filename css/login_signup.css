@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700;800&family=Roboto:wght@100;300;400&display=swap");
+
+:root {
+  --primary-color: #ffca2a; /*f4ca51*/
+  --primary-color-dark: rgb(232, 177, 13);
+  --primary-color-extra-dark: hsl(18, 58%, 27%);
+  --primary-dark: #1f252e;
+}
+
+.loginHere {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+form {
+  background: rgba(255, 255, 255, 0.091);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  width: 450px;
+  margin: 20px;
+  transition: transform 0.3s ease-in-out;
+  backdrop-filter: blur(20px);
+}
+
+form:hover {
+  transform: scale(1.05);
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  font-size: 1.4rem;
+  background: var(--primary-color-extra-dark);
+  color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+td {
+  padding: 10px;
+}
+
+input {
+  width: calc(100% - 16px);
+  padding: 12px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #5f5f5f;
+  border-radius: 8px;
+  transition: border-color 0.3s ease-in-out;
+  font-size: 16px;
+  background-color: #ffffff1a;
+}
+
+.welcomeBack {
+  margin-top: 2%;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.dontHaveAccount {
+  margin-top: 10%;
+  text-align: center;
+  font-size: 1.1rem;
+}
+.dontHaveAccount a {
+  text-decoration: none;
+  color: blue; /* Assuming primary color variable is defined */
+}
+.dontHaveAccount a:hover {
+  text-decoration: none;
+  color: rgb(65, 65, 255); /* Assuming primary color variable is defined */
+}
+
+.loginHere button {
+  width: 100%;
+}
+
+.loginBtnUsingGoogle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border: none;
+}
+
+.loginBtnUsingGoogle:hover {
+  background-color: #d7d7d7;
+  border: none;
+}
+.loginBtnUsingGoogle img {
+  vertical-align: middle;
+}
+
+.forgotPass {
+  padding-top: 15px;
+  padding-right: 15px;
+  display: flex;
+  justify-content: end;
+}
+
+#forgotPassword {
+  text-decoration: none;
+  color: blue; /* Assuming primary color variable is defined */
+  font-size: 1.1rem;
+}
+
+#forgotPassword:hover {
+  text-decoration: none;
+  color: rgb(65, 65, 255); /* Assuming primary color variable is defined */
+  font-size: 1.1rem;
+}
+
+#extra_or {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+}
