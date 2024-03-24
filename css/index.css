@@ -398,6 +398,9 @@ li a:hover {
 
   .nav-btn-mobile {
     display: block;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 
   .main .detail {
