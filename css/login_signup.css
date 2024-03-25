@@ -177,6 +177,10 @@ input {
     font-size: 12px;
   }
 
+  form {
+    padding: 15px;
+  }
+
   td {
     padding-top: 0%;
     padding-right: 0%;
