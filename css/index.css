@@ -430,7 +430,7 @@ li a:hover {
 }
 
 @media screen and (max-width: 375px) {
-  .images img {
+  /* .images img {
     width: 280px;
-  }
+  } */
 }

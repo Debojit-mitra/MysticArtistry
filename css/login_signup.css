@@ -138,3 +138,53 @@ input {
     opacity: 1;
   }
 }
+
+@media screen and (max-width: 1024px) {
+  .container {
+    padding: 0 4.4rem;
+  }
+
+  .main h3 {
+    color: #000;
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 75%;
+  }
+
+  .container {
+    padding: 0 1.6rem;
+  }
+
+  .images img {
+    width: 330px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    height: auto;
+  }
+
+  header {
+    height: auto;
+  }
+
+  input {
+    font-size: 12px;
+  }
+
+  td {
+    padding-top: 0%;
+    padding-right: 0%;
+    padding-bottom: 0%;
+    padding-left: 5%;
+  }
+
+  .welcomeBack {
+    margin: 5%;
+  }
+}
