@@ -343,8 +343,8 @@ E/*end  Animation */
 }
 
 li a.show-animation {
-  animation: navani 3.5s ease forwards;
-  animation-delay: calc(0.35s * var(--navAni));
+  animation: navani 1.5s ease forwards;
+  animation-delay: calc(0.15s * var(--navAni));
 }
 
 .footer {

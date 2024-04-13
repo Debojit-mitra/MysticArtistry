@@ -5,16 +5,25 @@
   --primary-dark: #1f252e;
 }
 
+.aboutus {
+  margin-top: 2%;
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+  text-shadow: 2px 2px 2px var(--primary-color-extra-dark);
+} 
+
 section {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around; /* or any other preferred alignment */
-  margin-bottom: 15%;
+  justify-content: center; /* Center the cards horizontally */
+  align-items: center; /* Center the cards vertically */
+  margin-bottom: 10%; /* Adjust bottom margin as needed */
 }
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  font-family: BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -43,7 +52,10 @@ code {
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(7px);
   overflow: hidden;
+  opacity: 0;
   transition: 0.5s all;
+  animation: bottomAni 1s ease forwards;
+  animation-delay: calc(0.1s * var(--index)); /* Delay each card by 0.1s */
   /* Remaining CSS styles for card */
   hr {
     width: 100%;
@@ -90,8 +102,8 @@ code {
       display: flex;
       margin-top: 1rem;
       ins {
-        color: #a89ec9;
-        text-decoration: none;
+        color: #ebceaa;
+        text-dergb(201, 191, 158)n;
       }
     }
   }
@@ -102,10 +114,21 @@ code {
   }
 }
 
-@media screen and (max-width: 600px) {
-  .card {
+
+
+
+@keyframes bottomAni {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
   }
 
-  .main {
+  100% {
+    transform: translateY(0);
+    opacity: 1;
   }
+}
+
+@media screen and (max-width: 600px) {
+  
 }
