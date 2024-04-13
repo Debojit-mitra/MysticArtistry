@@ -11,7 +11,7 @@
 .loginHere {
   display: flex;
   justify-content: center;
-  margin-top: 5%;
+  margin-top: 2%;
 }
 
 form {
@@ -24,10 +24,6 @@ form {
   transition: transform 0.3s ease-in-out;
   backdrop-filter: blur(20px);
   animation: bottomSideAni 1s ease forwards;
-}
-
-form:hover {
-  transform: scale(1.05);
 }
 
 table {

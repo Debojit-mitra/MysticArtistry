@@ -352,7 +352,7 @@ li a.show-animation {
   background-color: var(--primary-color-extra-dark); /* Adjust as needed */
   color: #fff; /* Adjust text color as needed */
   text-align: center;
-  padding: 20px 0;
+  padding: 15px 0;
   bottom: 0;
   width: 100%;
 }
@@ -456,6 +456,9 @@ li a.show-animation {
   .menu-icon {
     display: block;
     margin-top: 1rem;
+  }
+  .footer {
+    padding: 12px;
   }
 }
 
