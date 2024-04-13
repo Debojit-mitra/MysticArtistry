@@ -388,12 +388,18 @@ li a.show-animation {
 }
 
 @media screen and (max-width: 1000px) {
+  html {
+    font-size: 95%;
+  }
   li a {
     font-size: 0.95rem;
   }
 }
 
 @media screen and (max-width: 800px) {
+  html {
+    font-size: 85%;
+  }
   li a {
     font-size: 0.95rem;
     padding: 0.5rem;
