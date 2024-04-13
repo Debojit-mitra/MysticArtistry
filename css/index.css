@@ -373,9 +373,9 @@ li a.show-animation {
   }
 } */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
   html {
-    font-size: 75%;
+    font-size: 98%;
   }
 
   .container {
@@ -387,7 +387,20 @@ li a.show-animation {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
+  li a {
+    font-size: 0.95rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  li a {
+    font-size: 0.95rem;
+    padding: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
   body {
     height: auto;
   }
@@ -460,7 +473,4 @@ li a.show-animation {
   .footer {
     padding: 12px;
   }
-}
-
-@media screen and (max-width: 375px) {
 }

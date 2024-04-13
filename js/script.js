@@ -4,12 +4,17 @@ function openLoginPage() {
 }
 
 function openAboutPage() {
-  // Open loginpage.html in a new tab or window
+  // Open about.html in a new tab or window
   window.open("about.html", "_self");
 }
 
+function openBlogPage() {
+  // Open blog.html in a new tab or window
+  window.open("blog.html", "_self");
+}
+
 function openShopPage() {
-  // Open showPage.html in a new tab or window
+  // Open shop.html in a new tab or window
   window.open("index.html", "_self");
 }
 

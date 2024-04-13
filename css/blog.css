@@ -1,0 +1,131 @@
+/* Root variables */
+:root {
+  --primary-color: #ffca2a;
+  --primary-color-dark: rgb(232, 177, 13);
+  --primary-color-extra-dark: hsl(18, 58%, 27%);
+  --primary-dark: #1f252e;
+}
+
+section {
+  margin-bottom: 15%;
+}
+
+.blog {
+  margin-top: 1%;
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+  text-shadow: 2px 2px 2px var(--primary-color-extra-dark);
+}
+
+/* Blog post styles */
+.card {
+  margin: 2% auto;
+  border: 1px solid #ffffff22;
+  box-shadow: 0 7px 20px 5px #00000088;
+  background-color: #362b126c;
+  border-radius: 0.7rem;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(7px);
+  overflow: hidden;
+  opacity: 0;
+  transition: 0.5s all;
+  animation: bottomAni 1s ease forwards;
+  display: flex;
+}
+
+.card:hover {
+  border: 1px solid #ffffff71;
+  box-shadow: 0 7px 50px 10px var(--primary-color-extra-dark);
+}
+
+@keyframes bottomAni {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.main {
+  flex: 1; /* Take up remaining space */
+  display: flex; /* Add display flex to the main container */
+  align-items: center; /* Center items vertically */
+  padding: 1rem;
+}
+
+.blog-image {
+  border-radius: 0.5rem;
+  max-width: 340px; /* Adjust width as needed */
+  flex: none; /* Prevent image from stretching */
+  margin-right: 1rem; /* Add some space between image and content */
+}
+
+.blog-content {
+  margin-top: 1rem;
+  color: white;
+  flex-direction: column; /* Arrange content in a column */
+  flex: 1; /* Take up remaining space */
+}
+
+.main h2 {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.description {
+  color: #e2e2e2;
+  margin-top: 0.2rem;
+  margin-bottom: 1rem;
+}
+
+.read-more {
+  margin-top: 1.5rem;
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.read-more:hover {
+  text-decoration: underline;
+}
+
+/* For medium screens (e.g., tablets) */
+@media (min-width: 600px) and (max-width: 1000px) {
+  .card {
+    margin: 4% auto;
+  }
+
+  .content_text {
+    display: none;
+  }
+}
+
+/* For smaller screens (e.g., phones) */
+@media (max-width: 700px) {
+  .card {
+    margin-top: 10%;
+  }
+
+  .main h2 {
+    font-size: 1.7rem;
+  }
+
+  .content_text {
+    display: none;
+  }
+
+  .main {
+    flex-direction: column; /* Arrange items vertically */
+    align-items: flex-start; /* Align items to the start */
+  }
+
+  .blog-image {
+    max-width: 100%; /* Adjust width to fill the container */
+    margin-bottom: 1rem; /* Add some space between image and content */
+  }
+}

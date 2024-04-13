@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/blog.css" />
+    <title>Blog - MysticArtistry</title>
+    <link rel="icon" href="https://ibb.co/k1gnGDw" type="image/x-icon" />
+  </head>
+
+  <body>
+    <header class="container header-about">
+      <div class="page-header">
+        <div class="logo">
+          <img src="img/logo.png" alt="Logo" class="logo-img" />
+          <a href="#">MysticArtistry</a>
+        </div>
+        <input
+          type="checkbox"
+          id="click"
+          class="menu-btn"
+          onclick="toggleMenu()"
+        />
+        <label for="click" class="menu-icon">
+          <span class="navicon"></span>
+        </label>
+        <ul class="menu-items">
+          <li><a href="index.html" style="--navAni: 1">Home</a></li>
+          <li><a href="about.html" style="--navAni: 2">About</a></li>
+          <li><a href="#" style="--navAni: 3">Shop</a></li>
+          <li><a href="#" class="active" style="--navAni: 4">Blog</a></li>
+          <li><a href="#" style="--navAni: 5">FaQ</a></li>
+          <li><a href="#" style="--navAni: 6">Contact</a></li>
+          <button
+            type="button"
+            class="nav-btn-mobile"
+            onclick="openLoginPage()"
+          >
+            LOGIN
+          </button>
+        </ul>
+        <button type="button" class="nav-btn" onclick="openLoginPage()">
+          LOGIN
+        </button>
+      </div>
+    </header>
+    <h1 class="blog">Blog</h1>
+    <section class="container">
+      <!-- Blog posts go here -->
+      <div class="card" style="--index: 1">
+        <div class="main">
+          <img src="img/blog_1.webp" alt="Blog Post Image" class="blog-image" />
+          <div class="blog-content">
+            <h2>
+              Exploring the Vibrant Traditional Dresses of North East India
+            </h2>
+            <p class="description">Published on April 13, 2024</p>
+            <p class="content_text">
+              India, often referred to as the land of diversity, is a country
+              known for its rich and varied culture. Within this vast nation
+              lies the enchanting region of North East India, a land of
+              breathtaking landscapes, diverse communities, and a cultural
+              mosaic that is as intricate as it is captivating. One of the most
+              distinctive aspects of this region’s cultural tapestry is the
+              traditional attire worn by its people. These traditional dresses
+              are not just garments, they are living embodiments of
+              centuries-old traditions, carrying with them stories of heritage,
+              identity, and artistry. North East India, consisting of.....
+            </p>
+            <a href="#" class="read-more">Read more</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="--index: 2">
+        <div class="main">
+          <img src="img/blog_2.webp" alt="Blog Post Image" class="blog-image" />
+          <div class="blog-content">
+            <h2>
+              A festival that served Northeastern culture on a diverse platter
+            </h2>
+            <p class="description">Published on April 13, 2024</p>
+            <p class="content_text">
+              Something was different about the setup. It lacked the usual large
+              crowds cheering and pushing through to get a glimpse of the
+              action. COVID-19 has hit really hard, and this sight is an outcome
+              of its consequences. But the colours that adorned the streets were
+              exuberant and glamorous. Lots of music, dance, artefacts, and food
+              on display. This is a culture at its peak. It is the 8th edition
+              of the North East Festival, and even coronavirus wasn’t strong
+              enough to dampen the spirits or lessen the grandeur of one of the
+              region’s most important annual events......
+            </p>
+            <a href="#" class="read-more">Read more</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="--index: 3">
+        <div class="main">
+          <img src="img/blog_3.webp" alt="Blog Post Image" class="blog-image" />
+          <div class="blog-content">
+            <h2>10 Most Famous Food in North East India</h2>
+            <p class="description">Published on April 13, 2024</p>
+            <p class="content_text">
+              With a broad spectrum of cultures, traditions, and faiths, India
+              is one of the most popular tourist destinations in the world. It
+              is not only rich in diverse civilizations, but also in diverse
+              dishes prepared using varied cooking skills and procedures. In
+              India, you’ll sample a wide range of cuisines from state to state,
+              each with its own unique flavour profile. Every state has its own
+              set of gastronomic delicacies, as well as unique recipes and
+              cooking techniques. Because each household prepares these foods
+              differently, no two servings will ever taste the same.
+            </p>
+            <a href="#" class="read-more">Read more</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Add more blog post cards as needed -->
+    </section>
+    <script src="js/script.js"></script>
+    <footer class="footer">
+      <p>Made by team - MysticArtistry. All rights reserved &copy;</p>
+    </footer>
+  </body>
+</html>
