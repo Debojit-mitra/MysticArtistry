@@ -17,11 +17,16 @@
           <a href="#">MysticArtistry</a>
         </div>
 
-        <input type="checkbox" id="click" class="menu-btn" />
+        <input
+          type="checkbox"
+          id="click"
+          class="menu-btn"
+          onclick="toggleMenu()"
+        />
         <label for="click" class="menu-icon">
           <span class="navicon"></span>
         </label>
-        <ul>
+        <ul class="menu-items">
           <li><a href="#" class="active" style="--navAni: 1">Home</a></li>
           <li><a href="#" style="--navAni: 2">About</a></li>
           <li><a href="#" style="--navAni: 3">Shop</a></li>
@@ -56,5 +61,8 @@
       </div>
     </section>
     <script src="js/script.js"></script>
+    <footer class="footer">
+      <p>Made by team - MysticArtistry. All rights reserved &copy;</p>
+    </footer>
   </body>
 </html>
