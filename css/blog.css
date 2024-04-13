@@ -107,6 +107,9 @@ section {
 
 /* For smaller screens (e.g., phones) */
 @media (max-width: 700px) {
+  .aboutus {
+    margin-top: 3%;
+  }
   .card {
     margin-top: 10%;
   }
