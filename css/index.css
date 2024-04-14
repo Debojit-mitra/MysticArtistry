@@ -391,6 +391,9 @@ li a.show-animation {
   html {
     font-size: 95%;
   }
+  section.container {
+    padding: 0 4rem;
+  }
   li a {
     font-size: 0.95rem;
   }
@@ -400,6 +403,9 @@ li a.show-animation {
   header.container {
     padding: 0 1.2rem;
   }
+  section.container {
+    padding: 0 3rem;
+  }
   li a {
     font-size: 0.9rem;
   }
@@ -408,6 +414,9 @@ li a.show-animation {
 @media screen and (max-width: 800px) {
   html {
     font-size: 90%;
+  }
+  section.container {
+    padding: 0 2rem;
   }
   li a {
     font-size: 0.9rem;
