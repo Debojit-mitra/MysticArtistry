@@ -378,8 +378,8 @@ li a.show-animation {
     font-size: 98%;
   }
 
-  .container {
-    padding: 0 1.6rem;
+  section.container {
+    padding: 0 5rem;
   }
 
   .images img {
@@ -396,12 +396,21 @@ li a.show-animation {
   }
 }
 
-@media screen and (max-width: 800px) {
-  html {
-    font-size: 85%;
+@media screen and (max-width: 900px) {
+  header.container {
+    padding: 0 1.2rem;
   }
   li a {
-    font-size: 0.95rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  html {
+    font-size: 90%;
+  }
+  li a {
+    font-size: 0.9rem;
     padding: 0.5rem;
   }
 }

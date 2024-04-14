@@ -11,7 +11,7 @@
   color: white;
   font-size: 3rem;
   text-shadow: 2px 2px 2px var(--primary-color-extra-dark);
-} 
+}
 
 section {
   display: flex;
@@ -23,9 +23,8 @@ section {
 
 body {
   margin: 0;
-  font-family: BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: rgb(22, 20, 24);
@@ -103,7 +102,7 @@ code {
       margin-top: 1rem;
       ins {
         color: #ebceaa;
-        text-dergb(201, 191, 158)n;
+        text-decoration: none;
       }
     }
   }
@@ -127,9 +126,7 @@ code {
 }
 
 @media screen and (max-width: 600px) {
- 
   .aboutus {
     margin-top: 3%;
   }
-
 }
