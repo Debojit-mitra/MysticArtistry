@@ -391,11 +391,14 @@ li a.show-animation {
   html {
     font-size: 95%;
   }
+  header.container {
+    padding: 0 3rem;
+  }
   section.container {
     padding: 0 4rem;
   }
   li a {
-    font-size: 0.95rem;
+    font-size: 0.9rem;
   }
 }
 
