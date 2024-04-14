@@ -437,7 +437,7 @@ li a.show-animation {
   }
 
   ul {
-    margin-top: 5%;
+    margin-top: 2%;
     background: var(--primary-color-extra-dark);
     width: 100%;
     height: calc(100vh - 3.4rem); /* Subtract header height */
@@ -500,5 +500,17 @@ li a.show-animation {
   .footer {
     padding: 12px;
     font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  ul {
+    margin-top: 3%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  ul {
+    margin-top: 4%;
   }
 }

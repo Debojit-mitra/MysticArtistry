@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/index.css" />
-    <link rel="stylesheet" href="css/blog.css" />
+    <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" href="../css/blog.css" />
     <title>Blog - MysticArtistry</title>
     <link rel="icon" href="https://ibb.co/k1gnGDw" type="image/x-icon" />
   </head>
@@ -14,7 +14,7 @@
     <header class="container header-about">
       <div class="page-header">
         <div class="logo">
-          <img src="img/logo.png" alt="Logo" class="logo-img" />
+          <img src="../img/logo.png" alt="Logo" class="logo-img" />
           <a href="index.html">MysticArtistry</a>
         </div>
         <input
@@ -49,9 +49,17 @@
     <h1 class="blog">Blog</h1>
     <section class="container">
       <!-- Blog posts go here -->
-      <div class="card" style="--index: 1">
+      <div
+        class="card"
+        style="--index: 1"
+        onclick="redirectToPage('/html/blog_post/blog_post1.html')"
+      >
         <div class="main">
-          <img src="img/blog_1.webp" alt="Blog Post Image" class="blog-image" />
+          <img
+            src="../img/blog_1.webp"
+            alt="Blog Post Image"
+            class="blog-image"
+          />
           <div class="blog-content">
             <h2>
               Exploring the Vibrant Traditional Dresses of North East India
@@ -69,14 +77,24 @@
               centuries-old traditions, carrying with them stories of heritage,
               identity, and artistry. North East India, consisting of.....
             </p>
-            <a href="#" class="read-more">Read more</a>
+            <a href="/html/blog_post/blog_post1.html" class="read-more"
+              >Read more</a
+            >
           </div>
         </div>
       </div>
 
-      <div class="card" style="--index: 2">
+      <div
+        class="card"
+        style="--index: 2"
+        onclick="redirectToPage('/html/blog_post/blog_post2.html')"
+      >
         <div class="main">
-          <img src="img/blog_2.webp" alt="Blog Post Image" class="blog-image" />
+          <img
+            src="../img/blog_2.webp"
+            alt="Blog Post Image"
+            class="blog-image"
+          />
           <div class="blog-content">
             <h2>
               A festival that served Northeastern culture on a diverse platter
@@ -98,9 +116,17 @@
         </div>
       </div>
 
-      <div class="card" style="--index: 3">
+      <div
+        class="card"
+        style="--index: 3"
+        onclick="redirectToPage('/html/blog_post/blog_post3.html')"
+      >
         <div class="main">
-          <img src="img/blog_3.webp" alt="Blog Post Image" class="blog-image" />
+          <img
+            src="../img/blog_3.webp"
+            alt="Blog Post Image"
+            class="blog-image"
+          />
           <div class="blog-content">
             <h2>10 Most Famous Food in North East India</h2>
             <p class="description">Published on April 13, 2024</p>
@@ -122,7 +148,7 @@
 
       <!-- Add more blog post cards as needed -->
     </section>
-    <script src="js/script.js"></script>
+    <script src="../js/script.js"></script>
     <footer class="footer">
       <p>Made by team - MysticArtistry. All rights reserved &copy;</p>
     </footer>

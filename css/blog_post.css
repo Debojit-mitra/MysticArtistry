@@ -20,7 +20,7 @@ section {
 
 /* Blog post styles */
 .card {
-  margin: 2% auto;
+  margin: 5% auto;
   border: 1px solid #ffffff22;
   box-shadow: 0 7px 20px 5px #00000088;
   background-color: #362b126c;
@@ -32,6 +32,7 @@ section {
   transition: 0.5s all;
   animation: bottomAni 1s ease forwards;
   display: flex;
+  padding: 5%;
 }
 
 .card:hover {
@@ -54,15 +55,16 @@ section {
 .main {
   flex: 1; /* Take up remaining space */
   display: flex; /* Add display flex to the main container */
-  align-items: center; /* Center items vertically */
+  flex-direction: column; /* Arrange content in a column */
   padding: 1rem;
 }
 
 .blog-image {
   border-radius: 0.5rem;
-  max-width: 340px; /* Adjust width as needed */
-  flex: none; /* Prevent image from stretching */
-  margin-right: 1rem; /* Add some space between image and content */
+  width: 100%; /* Set width to 100% to make the image resize automatically */
+  max-width: 100%; /* Ensure image doesn't exceed its original size */
+  height: auto; /* Allow the image to adjust its height proportionally */
+  margin: 1rem auto; /* Add some space between image and content */
 }
 
 .blog-content {
@@ -78,9 +80,9 @@ section {
 }
 
 .description {
-  color: #e2e2e2;
+  color: #dadada;
   margin-top: 0.2rem;
-  margin-bottom: 1rem;
+  font-size: 1rem;
 }
 
 .read-more {
@@ -94,18 +96,46 @@ section {
   text-decoration: underline;
 }
 
-.card_button {
-  text-decoration: none;
+h2.main_heading {
+  font-size: 2rem;
+}
+
+h2.headings {
+  font-size: 1.5rem;
+  margin: 3% 0% 1% 0%;
+}
+h3.headings {
+  font-size: 1.2rem;
+  margin: 3% 0% 1% 0%;
+}
+
+p.blog_paragraph_text {
+  font-size: 1.2rem;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+p.blog_paragraph_text_heading {
+  margin-top: 2%;
+  font-size: 1.1rem;
+}
+
+.blog_post-image {
+  display: block;
+  border-radius: 0.5rem;
+  width: 70%; /* Set width to 100% to make the image resize automatically */
+  max-width: 100%; /* Ensure image doesn't exceed its original size */
+  height: auto; /* Allow the image to adjust its height proportionally */
+  margin: 3% auto 3% auto; /* Add some space between image and content */
 }
 
 /* For medium screens (e.g., tablets) */
-@media (min-width: 600px) and (max-width: 1000px) {
+@media (min-width: 700px) and (max-width: 1000px) {
   .card {
     margin: 4% auto;
   }
-
-  .content_text {
-    display: none;
+  h2.headings {
+    margin: 4% 0% 2% 0%;
   }
 }
 
@@ -116,14 +146,11 @@ section {
   }
   .card {
     margin-top: 10%;
+    padding: 2%;
   }
 
   .main h2 {
     font-size: 1.7rem;
-  }
-
-  .content_text {
-    display: none;
   }
 
   .main {
@@ -134,5 +161,13 @@ section {
   .blog-image {
     max-width: 100%; /* Adjust width to fill the container */
     margin-bottom: 1rem; /* Add some space between image and content */
+  }
+
+  .blog_post-image {
+    width: 90%;
+  }
+
+  h2.headings {
+    margin: 6% 0% 2% 0%;
   }
 }

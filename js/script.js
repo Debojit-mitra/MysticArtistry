@@ -1,21 +1,25 @@
 function openLoginPage() {
   // Open loginpage.html in a new tab or window
-  window.open("login.html", "_self");
+  window.open("../html/login.html", "_self");
 }
 
 function openAboutPage() {
   // Open about.html in a new tab or window
-  window.open("about.html", "_self");
+  window.open("../html/about.html", "_self");
 }
 
 function openBlogPage() {
   // Open blog.html in a new tab or window
-  window.open("blog.html", "_self");
+  window.open("../html/blog.html", "_self");
 }
 
 function openShopPage() {
   // Open shop.html in a new tab or window
-  window.open("index.html", "_self");
+  window.open("../html/index.html", "_self");
+}
+
+function redirectToPage(pageUrl) {
+  window.location.href = pageUrl;
 }
 
 function toggleMenu() {
