@@ -13,7 +13,7 @@ form {
   border-radius: 15px;
   box-shadow: 0 7px 20px 5px #00000088;
   width: 450px;
-  margin: 20px;
+  margin: 20px auto;
   transition: transform 0.3s ease-in-out;
   backdrop-filter: blur(20px);
   animation: bottomSideAni 1s ease forwards;
@@ -139,21 +139,21 @@ input {
   }
 } */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
   html {
-    font-size: 80%;
+    font-size: 90%;
   }
 
   .container {
-    padding: 0 1.6rem;
+    padding: 0 2rem;
   }
 
   .images img {
-    width: 330px;
+    width: 430px;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   body {
     height: auto;
   }
@@ -167,7 +167,7 @@ input {
   }
 
   form {
-    padding: 15px;
+    padding: 25px;
   }
 
   td {
