@@ -1,21 +1,11 @@
 function openLoginPage() {
   // Open loginpage.html in a new tab or window
-  window.open("../html/login.html", "_self");
-}
-
-function openAboutPage() {
-  // Open about.html in a new tab or window
-  window.open("../html/about.html", "_self");
-}
-
-function openBlogPage() {
-  // Open blog.html in a new tab or window
-  window.open("../html/blog.html", "_self");
+  window.open("../pages/login.html", "_self");
 }
 
 function openShopPage() {
   // Open shop.html in a new tab or window
-  window.open("../html/index.html", "_self");
+  window.open("index.html", "_self");
 }
 
 function redirectToPage(pageUrl) {
@@ -37,3 +27,4 @@ function toggleMenu() {
     });
   }
 }
+

@@ -1,5 +1,6 @@
 /* Your existing CSS styles for the card */
-section {
+section.container {
+    margin-top: 3%;
     margin-bottom: 10%;
 }
 .card {
@@ -37,10 +38,9 @@ section {
 
 /* Additional styles for FAQ page */
 h1.faq-heading {
-
-    margin-bottom: 1rem;
     animation: none;
     opacity: 100%;
+    margin-bottom: 1rem;
     margin-top: 1%;
     text-align: center;
     color: white;
