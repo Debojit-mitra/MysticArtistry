@@ -382,9 +382,7 @@ li a.show-animation {
     font-size: 98%;
   }
 
-  section.container {
-    padding: 0 5rem;
-  }
+ 
 
   .images img {
     width: 330px;
@@ -398,9 +396,7 @@ li a.show-animation {
   header.container {
     padding: 0 3rem;
   }
-  section.container {
-    padding: 0 4rem;
-  }
+  
   li a {
     font-size: 0.9rem;
   }
@@ -410,9 +406,7 @@ li a.show-animation {
   header.container {
     padding: 0 1.2rem;
   }
-  section.container {
-    padding: 0 3rem;
-  }
+  
   li a {
     font-size: 0.9rem;
   }
@@ -422,9 +416,7 @@ li a.show-animation {
   html {
     font-size: 90%;
   }
-  section.container {
-    padding: 0 2rem;
-  }
+  
   li a {
     font-size: 0.9rem;
     padding: 0.5rem;
