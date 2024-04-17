@@ -107,6 +107,7 @@ section.container {
 @media (max-width: 700px) {
   .blog {
     margin-top: 5%;
+    font-size: 2rem;
   }
   .card {
     margin-top: 10%;

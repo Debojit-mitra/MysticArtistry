@@ -4,7 +4,7 @@ section.container {
     margin-bottom: 10%;
 }
 .card {
-    margin: 5% auto;
+    margin: 2% auto;
     border: 1px solid #ffffff22;
     box-shadow: 0 7px 20px 5px #00000088;
     background-color: #362b126c;
@@ -40,8 +40,8 @@ section.container {
 h1.faq-heading {
     animation: none;
     opacity: 100%;
-    margin-bottom: 1rem;
-    margin-top: 1%;
+    margin-top: 2%;
+  margin-bottom: 3%;
     text-align: center;
     color: white;
     font-size: 3rem;
@@ -90,6 +90,7 @@ a.mailto:hover {
         margin-bottom: 10%;
     }
     h1.faq-heading {
+        margin-top: 5%;
         font-size: 2.5rem;
     }
     .faq-question {
@@ -98,6 +99,9 @@ a.mailto:hover {
     .faq-answer {
         font-size: 1.2rem;
     }
+    .card {
+        margin-top: 10%;
+      }
 }
 
 @media (max-width: 700px) {
