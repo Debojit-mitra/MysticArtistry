@@ -130,4 +130,8 @@ section.container {
     max-width: 100%; /* Adjust width to fill the container */
     margin-bottom: 1rem; /* Add some space between image and content */
   }
+
+  section.container {
+    margin-bottom: 15%;
+  }
 }
