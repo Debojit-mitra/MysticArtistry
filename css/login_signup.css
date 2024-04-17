@@ -1,13 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700;800&family=Roboto:wght@100;300;400&display=swap");
 
-:root {
-  --primary-color: #ffca2a; /*f4ca51*/
-  --primary-color-dark: rgb(232, 177, 13);
-  --primary-color-extra-dark: hsl(18, 58%, 27%);
-  --primary-dark: #1f252e;
-}
-
 .loginHere {
   display: flex;
   justify-content: center;
@@ -148,7 +141,7 @@ input {
 
 @media screen and (max-width: 768px) {
   html {
-    font-size: 75%;
+    font-size: 80%;
   }
 
   .container {

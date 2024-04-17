@@ -1,0 +1,108 @@
+/* Your existing CSS styles for the card */
+section {
+    margin-bottom: 10%;
+}
+.card {
+    margin: 5% auto;
+    border: 1px solid #ffffff22;
+    box-shadow: 0 7px 20px 5px #00000088;
+    background-color: #362b126c;
+    border-radius: 0.7rem;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(7px);
+    overflow: hidden;
+    opacity: 0;
+    transition: 0.5s all;
+    animation: bottomAni 1s ease forwards;
+    display: flex;
+    padding: 5%;
+}
+
+.card:hover {
+    border: 1px solid #ffffff71;
+    box-shadow: 0 7px 50px 10px var(--primary-color-extra-dark);
+}
+
+@keyframes bottomAni {
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Additional styles for FAQ page */
+h1.faq-heading {
+
+    margin-bottom: 1rem;
+    animation: none;
+    opacity: 100%;
+    margin-top: 1%;
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    text-shadow: 2px 2px 2px var(--primary-color-extra-dark);
+}
+.faq-item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 2% 2% 0% 2%;
+    margin-bottom: 2rem;
+}
+
+.faq-question {
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.faq-answer {
+    font-size: 1.3rem;
+    color: white;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.icon {
+    width: 40px; /* Adjust the width of the icon as needed */
+    height: 40px; /* Adjust the height of the icon as needed */
+    margin-right: 10px; /* Add some spacing between the icon and the question text */
+    vertical-align: middle; /* Align the icon vertically with the text */
+}
+
+@media (max-width: 1000px) {
+    section {
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+    h1.faq-heading {
+        font-size: 2.5rem;
+    }
+    .faq-question {
+        font-size: 1.5rem;
+    }
+    .faq-answer {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 700px) {
+    section {
+        margin-top: 10%;
+        margin-bottom: 15%;
+    }
+    h1.faq-heading {
+        font-size: 2rem;
+    }
+    .faq-question {
+        font-size: 1.4rem;
+    }
+    .faq-answer {
+        font-size: 1.1rem;
+    }
+}
