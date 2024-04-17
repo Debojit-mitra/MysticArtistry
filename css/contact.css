@@ -23,7 +23,7 @@ section.container {
     width: 400px;
     border: 1px solid #ffffff22;
     box-shadow: 0 7px 20px 5px #00000088;
-    background-color: #38383836;
+    background-color: #00000036;
     border-radius: 0.7rem;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(7px);
@@ -79,6 +79,8 @@ table {
     font-size: 16px;
     background-color: #ffffff1a;
     color: white;
+  }::placeholder{
+    color: #d8d8d8;
   }
 
   
@@ -133,7 +135,7 @@ table {
 
 .social_heading  {
     margin-top: 5%;
-    margin-bottom: 2%;
+    margin-bottom: 5%;
     font-size: 1.3rem;
     color: white;
   }
