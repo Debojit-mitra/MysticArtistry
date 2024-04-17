@@ -75,6 +75,15 @@ h1.faq-heading {
     vertical-align: middle; /* Align the icon vertically with the text */
 }
 
+a.mailto {
+  color: var(--primary-color); /* Change color to match your design */
+  text-decoration: none; /* Remove underline */
+} 
+
+a.mailto:hover {
+    text-decoration: underline;
+}
+
 @media (max-width: 1000px) {
     section {
         margin-top: 5%;
