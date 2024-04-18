@@ -10,6 +10,10 @@ section {
   text-shadow: 2px 2px 2px var(--primary-color-extra-dark);
 }
 
+.footer {
+  position: relative;
+}
+
 /* Blog post styles */
 .card {
   margin: 5% auto;

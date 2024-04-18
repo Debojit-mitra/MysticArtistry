@@ -25,6 +25,10 @@ body {
   user-select: none;
 }
 
+.footer {
+  position: relative;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

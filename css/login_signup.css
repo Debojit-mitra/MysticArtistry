@@ -47,6 +47,10 @@ input {
   background-color: #ffffff1a;
 }
 
+.footer {
+  position: relative;
+}
+
 .welcomeBack {
   margin-top: 2%;
   text-align: center;
