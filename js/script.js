@@ -5,7 +5,7 @@ function openLoginPage() {
 
 function openShopPage() {
   // Open shop.html in a new tab or window
-  window.open("../index.html", "_self");
+  window.open("../pages/shop.html", "_self");
 }
 
 function redirectToPage(pageUrl) {
