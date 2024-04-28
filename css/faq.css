@@ -1,3 +1,6 @@
+body, html {
+    overflow-x: hidden;
+  }
 /* Your existing CSS styles for the card */
 section.container {
     margin-top: 3%;
@@ -84,6 +87,10 @@ a.mailto:hover {
     text-decoration: underline;
 }
 
+.footer {
+    position: relative;
+  }
+  
 @media (max-width: 1000px) {
     section {
         margin-top: 5%;
@@ -122,3 +129,10 @@ a.mailto:hover {
         margin-bottom: 15%;
       }
 }
+
+
+@media screen and (min-height: 1000px) {
+    .footer{
+      position:fixed;
+    }
+  }

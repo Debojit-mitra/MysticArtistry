@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" href="../css/shop.css" />
+    <title>Blog - MysticArtistry</title>
+    <link rel="icon" type="image/png" href="https://i.ibb.co/JQRLcpG/logo.png" />
+  </head>
+
+  <body>
+    <header class="container header-about">
+      <div class="page-header">
+        <div class="logo">
+          <img src="../img/logo.png" alt="Logo" class="logo-img" />
+          <a href="../index.html">MysticArtistry</a>
+        </div>
+        <input
+          type="checkbox"
+          id="click"
+          class="menu-btn"
+          onclick="toggleMenu()"
+        />
+        <label for="click" class="menu-icon">
+          <span class="navicon"></span>
+        </label>
+        <ul class="menu-items">
+          <li><a href="../index.html" style="--navAni: 1">Home</a></li>
+          <li><a href="about.html" style="--navAni: 2">About</a></li>
+          <li><a href="#" class="active" style="--navAni: 3">Shop</a></li>
+          <li><a href="blog.html"  style="--navAni: 4">Blog</a></li>
+          <li><a href="faq.html" style="--navAni: 5">FaQ</a></li>
+          <li><a href="contact.html" style="--navAni: 6">Contact</a></li>
+          <button
+            type="button"
+            class="nav-btn-mobile"
+            onclick="openLoginPage()"
+          >
+            LOGIN
+          </button>
+        </ul>
+        <button type="button" class="nav-btn" onclick="openLoginPage()">
+          LOGIN
+        </button>
+      </div>
+    </header>
+    
+    <section class="container">
+      <h1 class="shop">Shop</h1>
+      
+      <div class="image-carousel">
+
+        <input type="radio" name="carousel" id="slide-1" class="carousel" checked>
+        <label for="slide-1" style="--hue: 32" class="carousel"></label>
+        <div class="slide" style="--z-index: 4">
+          <h2 class="slide-heading" style="--hue: 32; --saturation: 80%; --lightness: 90%">What do you know?</h2>
+          <img src="../img/example_image_slider.png" alt="Snow on leafs" class="slider_image">
+        </div>
+      
+        <input type="radio" name="carousel" id="slide-2" class="carousel">
+        <label for="slide-2" style="--hue: 82" class="carousel"></label>
+        <div class="slide" style="--z-index: 3">
+          <h2 class="slide-heading" style="--hue: 82; --saturation: 80%; --lightness: 90%">Look from inside?</h2>
+          <img src="https://images.unsplash.com/photo-1529761430595-036b79cb9d5e?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=500&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=700" alt="Trees">
+        </div>
+      
+        <input type="radio" name="carousel" id="slide-3" class="carousel">
+        <label for="slide-3" style="--hue: 40" class="carousel"></label>
+        <div class="slide" style="--z-index: 2">
+          <h2 class="slide-heading" style="--hue: 40; --saturation: 100%; --lightness: 89%">In the mountains?</h2>
+          <img src="https://images.unsplash.com/photo-1518805629729-3e55b81b2393?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=500&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=700" alt="Mountains and houses">
+        </div>
+      
+        <input type="radio" name="carousel" id="slide-4" class="carousel">
+        <label for="slide-4" style="--hue: 210" class="carousel"></label>
+        <div class="slide" style="--z-index: 1">
+          <h2 class="slide-heading" style="--hue: 210; --saturation: 70%; --lightness: 90%">Above looks beautiful?</h2>
+          <img src="https://images.unsplash.com/photo-1488831948116-38bc1351c6d6?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=500&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=700" alt="Sky and mountains">
+        </div>
+      
+        <input type="radio" name="carousel" id="slide-5" class="carousel">
+        <label for="slide-5" style="--hue: 100" class="carousel"></label>
+        <div class="slide" style="--z-index: 0">
+          <h2 class="slide-heading" style="--hue: 100; --saturation: 80%; --lightness: 85%">Nature's tranquility?</h2>
+          <img src="https://images.unsplash.com/photo-1546260351-0e51b0d1c968?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=500&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=700" alt="Sunset">
+        </div>
+      </div>
+      
+      <h2 class="heading">Product Categories</h2>
+
+      <div class="category-container">
+        <div class="handicraft-card" style="--index: 1">
+            <div class="handicraft-main">
+              <div class="handicraft-content">
+                <h2 class="category_title">Textiles and Fabrics</h2>
+              </div>
+              <img src="../img/product_category_1.jpg" alt="category image 1" class="card-image">
+            </div>
+          </div>
+          <div class="handicraft-card" style="--index: 2">
+            <div class="handicraft-main" >
+              <div class="handicraft-content">
+                <h2 class="category_title">Cane & Bamboo</h2>
+              </div>
+              <img src="../img/product_category_2.jpg" alt="category image 2" class="card-image">
+            </div>
+          </div>
+          <div class="handicraft-card" style="--index: 3">
+            <div class="handicraft-main" >
+              <div class="handicraft-content">
+                <h2 class="category_title">Masks & Paintings</h2>
+              </div>
+              <img src="../img/product_category_3.jpg" alt="category image 3" class="card-image">
+            </div>
+          </div>
+          <div class="handicraft-card" style="--index: 4">
+            <div class="handicraft-main">
+              <div class="handicraft-content">
+                <h2 class="category_title">Metal Crafts</h2>
+              </div>
+              <img src="../img/product_category_4.webp" alt="category image 4" class="card-image">
+            </div>
+          </div>
+          <div class="handicraft-card" style="--index: 5">
+            <div class="handicraft-main">
+              <div class="handicraft-content">
+                <h2 class="category_title">Jewelry & Accessories</h2>
+              </div>
+              <img src="../img/product_category_5.jpg" alt="category image 5" class="card-image">
+            </div>
+          </div>
+          <div class="handicraft-card" style="--index: 6">
+            <div class="handicraft-main">
+              <div class="handicraft-content">
+                <h2 class="category_title">Pottery and Ceramics</h2>
+              </div>
+              <img src="../img/product_category_6.webp" alt="category image 6" class="card-image">
+            </div>
+          </div>
+      </div>
+
+      <h2 class="heading" style="margin-top: 0%;">Featured Product</h2>
+
+      <div class="feature-product-container">
+        <div class="product-cart">
+          <img src="images/products/f1.jpg" alt="product image">
+          <span>adidas</span>
+          <h4>Cartoon Astronaut T-Shirts</h4>
+          <h4 class="price">$78</h4>
+          <a href="#"><i class="fa-solid fa-cart-shopping buy-icon" aria-hidden="true"></i></a>
+        </div>
+      </div>
+      
+
+    </section>
+    <script src="../js/script.js"></script>
+    <footer class="footer">
+      <p>Made by team - MysticArtistry. All rights reserved &copy;</p>
+    </footer>
+  </body>
+</html>

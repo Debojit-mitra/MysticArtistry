@@ -1,3 +1,6 @@
+body, html {
+  overflow-x: hidden;
+}
 section {
   margin-bottom: 15%;
 }
@@ -165,5 +168,11 @@ p.blog_paragraph_text_heading {
 
   h2.headings {
     margin: 6% 0% 2% 0%;
+  }
+}
+
+@media screen and (min-height: 1000px) {
+  .footer{
+    position:fixed;
   }
 }

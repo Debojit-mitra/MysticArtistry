@@ -1,3 +1,6 @@
+body, html {
+  overflow-x: hidden;
+}
 .aboutus {
   margin-top: 1%;
   text-align: center;
@@ -122,8 +125,14 @@ code {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .aboutus {
     margin-top: 3%;
+  }
+}
+
+@media screen and (min-height: 1000px) {
+  .footer{
+    position:fixed;
   }
 }
