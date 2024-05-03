@@ -32,6 +32,7 @@ section.container {
   opacity: 0;
   transition: 0.5s all;
   animation: bottomAni 1s ease forwards;
+  animation-delay: calc(0.1s * var(--index)); /* Delay each card by 0.1s */
   display: flex;
 }
 

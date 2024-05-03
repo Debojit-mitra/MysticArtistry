@@ -33,6 +33,7 @@ section.container {
     opacity: 0;
     transition: 0.5s all;
     animation: bottomAni 1s ease forwards;
+    animation-delay: calc(0.1s * var(--index)); 
     display: flex;
     padding: 5%;
   }
@@ -133,6 +134,8 @@ table {
     font-size: 15px;
     text-align: center;
     text-decoration: none;
+    transition: 0.5s all;
+    
 }
 
 .social [class*="fa fa-"]:hover{
@@ -149,7 +152,7 @@ table {
 
 button.sendbtn {
     animation: none;
-    opacity: 100;
+    opacity: 100%;
     width: 100%;
 }
 

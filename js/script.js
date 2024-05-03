@@ -11,19 +11,3 @@ function openShopPage() {
 function redirectToPage(pageUrl) {
   window.location.href = pageUrl;
 }
-
-function toggleMenu() {
-  var menuItems = document.querySelectorAll("li a");
-  var checkbox = document.getElementById("click");
-  var isChecked = checkbox.checked;
-
-  if (isChecked) {
-    menuItems.forEach(function (item, index) {
-      item.classList.add("show-animation");
-    });
-  } else {
-    menuItems.forEach(function (item, index) {
-      item.classList.remove("show-animation");
-    });
-  }
-}

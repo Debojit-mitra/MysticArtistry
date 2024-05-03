@@ -32,11 +32,6 @@ body {
   position: relative;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
-
 .main h2 {
   margin-top: 2%;
 }

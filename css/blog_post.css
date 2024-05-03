@@ -5,14 +5,6 @@ section {
   margin-bottom: 15%;
 }
 
-.blog {
-  margin-top: 1%;
-  text-align: center;
-  color: white;
-  font-size: 3rem;
-  text-shadow: 2px 2px 2px var(--primary-color-extra-dark);
-}
-
 .footer {
   position: relative;
 }
@@ -74,7 +66,7 @@ section {
 }
 
 .main h2 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: white;
 }
 
@@ -82,21 +74,6 @@ section {
   color: #dadada;
   margin-top: 0.2rem;
   font-size: 1rem;
-}
-
-.read-more {
-  margin-top: 1.5rem;
-  color: var(--primary-color);
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.read-more:hover {
-  text-decoration: underline;
-}
-
-h2.main_heading {
-  font-size: 2rem;
 }
 
 h2.headings {
