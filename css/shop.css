@@ -55,6 +55,7 @@ body, html {
   .slide img {
     -moz-user-select: none;
     user-select: none;
+    
   }
   
   .slide-heading {
@@ -120,8 +121,8 @@ body, html {
   }
   
   .handicraft-card {
-    height: 150px;
-    width: 150px;
+    height: 180px;
+    width: 180px;
     margin: 1% auto; /* Adjust margin as needed */
     border: 1px solid #ffffff22; /* Border color */
     box-shadow: 0 7px 20px 5px #00000088; /* Box shadow */
@@ -162,8 +163,8 @@ body, html {
   }
 
 
-  h2.category_title {
-    font-size: 150px;
+  .category_title {
+    font-size: 2rem;
   }
   
   @keyframes bottomAni {
@@ -178,7 +179,7 @@ body, html {
     }
   }
   
-  .category-container {
+  .category-container, .product-container {
     margin-bottom: 1%;
     display: flex;
     flex-wrap: wrap;
@@ -212,7 +213,7 @@ body, html {
   }
   
   .handicraft-main h2 {
-    font-size: 1rem; /* Heading font size */
+    font-size: 1.2rem; /* Heading font size */
     color: white; /* Heading color */
   }
   
@@ -286,15 +287,21 @@ body, html {
   }
 
 
-
+  h2.heading2 {
+    margin-top: 3%;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    text-shadow: 2px 2px 2px var(--primary-color-extra-dark);
+  }
 
   .main h2 {
     margin-top: 2%;
   }
   
-  .card {
-    max-width: 300px;
-    margin: 5% auto;
+  .product-card {
+    max-width: 270px;
+    margin: 3% auto;
     border: 1px solid #ffffff22;
     box-shadow: 0 7px 20px 5px #00000088;
     background-color: #362b126c;
@@ -319,48 +326,79 @@ body, html {
     .main {
       display: flex;
       flex-direction: column;
-      align-items: center;
+      justify-content: space-between;
       width: 90%;
       padding: 1rem;
-      .profileImage {
+      .productImage {
         border-radius: 0.5rem;
         max-width: 100%;
-        width: 300px;
-        height: 250px;
+        width: 250px;
+        height: 200px;
         object-fit: cover;
+      }
+      h2 {
+        color: white;
       }
       .description {
         margin: 0.5rem 0;
         color: #e2e2e2;
       }
-      .info_about {
+      .info_about{
         display: flex;
         justify-content: space-between;
         align-items: center;
+        margin-top: 4%;
+        font-size: 1.5rem;
         .info {
           display: flex;
           align-items: center;
-          color: var(--primary-color);
+          color: wheat;
           font-weight: 700;
-          ins {
-            margin-left: -0.3rem;
-            margin-right: 0.5rem;
+          ins{
+            font-weight: 400;
+            margin-right: 5%;
+            text-decoration: line-through;
           }
         }
+        #heart {
+          display:none;
+        }
+       .wishlist-icon {
+        margin-right: 2%;
+        max-width: 25px;
+        height: auto;
+        
+       }
+       .heart-icon{
+        transition: 0.8s all;
+       }
+       .heart-icon:hover {
+        color: var(--primary-color);
       }
-      .creator {
+      .heart-icon:hover::before{
+        color: var(--primary-color);
+        content: "\f004"; /* Unicode for the filled heart icon */
+      }
+      }
+      .add_to_cart {
         display: flex;
-        margin-top: 1rem;
-        ins {
-          color: #ebceaa;
-          text-decoration: none;
+        justify-content: center;
+        .addToCartBtn{
+          margin-top: 5%;
+          font-size: 1rem;
+          padding-top: 4%;
+          padding-bottom: 4%;
+          animation: none;
+          opacity: 1;
         }
       }
     }
-    &:hover {
+    /* &:hover {
       border: 1px solid #ffffff71;
       box-shadow: 0 7px 50px 10px var(--primary-color-extra-dark);
       translate: 0px 4px 10px;
-    }
+    } */
   }
+
+ 
   
