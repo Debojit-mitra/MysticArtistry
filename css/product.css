@@ -24,7 +24,7 @@ section.container {
   animation: bottomAni 1s ease forwards;
   animation-delay: calc(0.1s * var(--index)); 
   display: flex;
-  padding: 5%;
+  padding: 2%;
 }
 
 .main {
