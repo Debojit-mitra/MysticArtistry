@@ -359,17 +359,6 @@ li a.show-animation {
   margin: 0;
 }
 
-/* end menu for mobile devices */
-/* @media screen and (max-width: 1024px) {
-  .container {
-    padding: 0 4.4rem;
-  }
-
-  .main h3 {
-    color: #000;
-    margin-top: 1rem;
-  }
-} */
 
 @media screen and (max-width: 1200px) {
   html {
