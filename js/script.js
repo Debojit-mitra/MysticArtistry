@@ -17,3 +17,17 @@ function redirectToPage(pageUrl) {
   window.location.href = pageUrl;
 }
 
+function changeImage(src) {
+  const mainImage = document.getElementById("mainImage");
+  mainImage.classList.add("fade-out");
+
+  setTimeout(() => {
+    mainImage.src = src;
+    mainImage.classList.remove("fade-out");
+    mainImage.classList.add("fade-in");
+  }, 300);
+
+  setTimeout(() => {
+    mainImage.classList.remove("fade-in");
+  }, 500);
+}
