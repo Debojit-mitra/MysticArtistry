@@ -423,7 +423,7 @@ li a.show-animation {
     height: auto;
   }
 
-  ul {
+  ul.menu-items {
     margin-top: 2%;
     background: var(--primary-color-extra-dark);
     width: 100%;
